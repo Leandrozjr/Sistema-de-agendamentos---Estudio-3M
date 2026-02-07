@@ -1,3 +1,23 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* theme, variables, :root, .dark, utilities, etc */
+/* TODO o código grande que você me enviou antes */
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-normal tracking-wide uppercase;
+  }
+}
+
+/* 👇👇👇 SÓ AQUI entra a correção dos botões 👇👇👇 */
+
 @layer base {
   button {
     @apply text-sm px-3 py-1.5 leading-tight;
